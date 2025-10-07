@@ -6,7 +6,7 @@ for i in range(4):
 a = 99
 b = 3
 c = 8
-result = (a**b) * c
+result = (a^b) * c
 print(result)
 #Exercise 3 : What’s your name ? - Write code that asks the user for their name and determines whether or not you have the same name, print out a funny message based on the outcome.
 my_name = "manu"
@@ -45,7 +45,7 @@ basket.remove("Banana")
 print(basket)
 basket.remove("Blueberries")
 print(basket)
-basket.append("Kiwi")
+basket.append("Kiwis")
 print(basket)
 basket.insert(0,"Apples")
 print(basket)
